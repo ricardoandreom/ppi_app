@@ -1,6 +1,6 @@
 import pandas as pd
 
-path = 'C:/Users/Admin/Desktop/streamlit_ppi/'
+path = 'https://raw.githubusercontent.com/ricardoandreom/ppi_app/main/ppi_app/'
 
 documentation_md_str = """
 This tool allows you to calculate a Player Performance Index (PPI) based on various physical attributes of football players. 
@@ -36,3 +36,5 @@ dict_dfs = {
     'passing': pd.read_excel(path + 'passing.xlsx'),
     'shooting': pd.read_excel(path + 'shooting.xlsx')
 }
+
+image_path = path + 'image_example.png'
