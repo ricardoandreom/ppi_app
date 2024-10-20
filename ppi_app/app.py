@@ -62,7 +62,7 @@ if selected_columns:
 
     st.subheader("Step 4: Plot Selected Player Percentiles Radar Chart?")
 
-    image = config.path + 'image_example.png'
+    image = config.image_path
     st.image(image, caption="Example Radar Chart for Nathan Aké", use_column_width=True)
 
     st.subheader("Step 5:??? Generate some comment about the selected player using a LLM.")
